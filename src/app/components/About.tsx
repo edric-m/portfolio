@@ -12,7 +12,6 @@ export const About = () => {
             What excites me most about coding is the hard stuff (the more daunting the better haha), because I learn a lot and re-learn a lot - whether I succeed or not, its where I grow the most.
 
             I think the biggest takeaway I have from my work experience is that I like working with and supporting others, getting good work done and creating a team that feels fullfilled by their work, and happily improving.
-            Software engineer seeking experience in technical software engineering problems where I can be exposed to interesting problems.
           </Typography>
           <Stack>
             <Stack direction="row" justifyContent="space-between">

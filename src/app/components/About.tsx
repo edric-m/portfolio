@@ -6,11 +6,13 @@ export const About = () => {
         <Typography variant="h6">About</Typography>
         <Stack spacing={2}>
           <Typography variant="body1">
-            Hi,
+            Heyo, the names Edric.
+            I am a software engineer with about 2 years experience in full stack web development (with a slight preference to front end development). My UTS coursework included electronics, networking, security, signal processing and embedded software. I enjoyed signal processing the most and have applyed that knowledge in creating an app that can identify musical tones over a microphone.
+
+            What excites me most about coding is the hard stuff (the more daunting the better haha), because I learn a lot and re-learn a lot - whether I succeed or not, its where I grow the most.
+
+            I think the biggest takeaway I have from my work experience is that I like working with and supporting others, getting good work done and creating a team that feels fullfilled by their work, and happily improving.
             Software engineer seeking experience in technical software engineering problems where I can be exposed to interesting problems.
-            **Communication** – Worked as a tutor for basic computer skills at Karabi Community Services where I had to communicate technical concepts in a way that is easy to understand. Gained valuable experience from various group projects.
-            **Teamwork** – Team leader in a semester long software engineering project in which our team achieved a high credit. Constantly improving this through my work at SeaLadder.
-            **Problem solving** – Understanding how to analyse audio signals through a web app. Developed throughout my degree, being consistently challenged with physics, calculus, and software design problems.
           </Typography>
           <Stack>
             <Stack direction="row" justifyContent="space-between">

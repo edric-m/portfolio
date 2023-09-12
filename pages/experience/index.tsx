@@ -1,14 +1,16 @@
-import { Box } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { Experience } from "../../src/components/Experience";
 import { Nav } from "../../src/components/Nav";
 import { NextPage } from "next";
 
   const ExperiencePage: NextPage = () => {
     return (
-      <Box sx={{ width: "75%"}}>
+      <Stack alignItems="center">
         <Nav />
-        <Experience />
-      </Box>
+        <Box sx={{ width: "75%", mt: 4 }}>
+          <Experience />
+        </Box>
+    </Stack>
     );
   }
   

@@ -1,14 +1,16 @@
-import { Box } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { NextPage } from "next";
 import { Nav } from "@/components/Nav";
 import { Teamwork } from "@/components/Teamwork";
 
 const TeamworkPage: NextPage = () => {
   return (
-    <Box sx={{ width: "75%"}}>
+    <Stack alignItems="center">
       <Nav />
-      <Teamwork />
-    </Box>
+      <Box sx={{ width: "75%", mt: 4 }}>
+        <Teamwork />
+      </Box>
+    </Stack>
   );
 }
 

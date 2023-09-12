@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import { saveAs } from 'file-saver';
 import { AlignmentType, Document, ExternalHyperlink, HeadingLevel, Packer, Paragraph, TextRun } from 'docx';
 import React, { useState, useEffect } from 'react';
+import { Box } from '@mui/material';
 
 const content = {
   sections: [
@@ -72,19 +73,22 @@ const saveDocumentToFile = (fileName: string) => {
 export const Nav = () => {
   const save = () => {
     // Call saveDocumentToFile with the document instance and a filename
-    saveDocumentToFile("New Document.docx")
+    saveDocumentToFile("e-mendoza-resume-23.docx");
   }
 
   return (
-    <Stack justifyContent="center" direction="row" spacing={2}>
-      <Button href="/">Home</Button>
-      <Button href="about">About</Button>
-      <Button href="experience">Experience</Button>
-      <Button href="education">Education</Button>
-      <Button href="leadership">Leadership</Button>
-      <Button href="teamwork">Teamwork</Button>
-      <Button type="button" onClick={save}>Resume</Button>
-      <Button href="contact">Contact</Button>
-    </Stack>
+    <Box sx={{position: 'fixed', top: 0, backgroundColor: 'white', width: '100%' }} justifyContent="center">
+      <Stack justifyContent="center" direction="row" spacing={2}>
+        <Button href="/">Home</Button>
+        <Button href="about">About</Button>
+        <Button href="experience">Experience</Button>
+        <Button href="education">Education</Button>
+        <Button href="leadership">Leadership</Button>
+        <Button href="teamwork">Teamwork</Button>
+        <Button type="button" onClick={save}>Resume</Button>
+        <Button href="contact">Contact</Button>
+      </Stack>
+    </Box>
+
   );
 }

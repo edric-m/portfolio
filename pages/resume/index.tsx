@@ -1,12 +1,14 @@
-import { Box } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { Nav } from "../../src/components/Nav";
 import { NextPage } from "next";
 
 const ResumePage: NextPage = () => {
   return (
-    <Box sx={{ width: "75%"}}>
-      <Nav />
-    </Box>
+    <Stack alignItems="center">
+      <Box sx={{ width: "75%", mt: 4 }}>
+        <Nav />
+      </Box>
+    </Stack>
   );
 }
 

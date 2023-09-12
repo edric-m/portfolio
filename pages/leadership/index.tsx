@@ -1,14 +1,16 @@
-import { Box } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { Nav } from "../../src/components/Nav";
 import { Leadership } from "../../src/components/Leadership";
 import { NextPage } from "next";
 
 const LeadershipPage: NextPage = () => {
   return (
-    <Box sx={{ width: "75%"}}>
+    <Stack alignItems="center">
       <Nav />
-      <Leadership />
-    </Box>
+      <Box sx={{ width: "75%", mt: 4 }}>
+        <Leadership />
+      </Box>
+    </Stack>
   );
 }
 

@@ -12,9 +12,9 @@ import { NextPage } from "next";
 const HomePage: NextPage = () => {
   return (
     <>
-      <Nav />
       <Stack alignItems="center">
-        <Box sx={{ width: "75%"}}>
+        <Nav />
+        <Box sx={{ width: "75%", mt: 4 }}>
           <Stack spacing={4}>
             <About />
             <Experience />

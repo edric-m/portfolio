@@ -11,23 +11,23 @@ export const Experience = () => {
               <Typography>Jan 2022 – Present</Typography>
             </Stack>
             <Typography>Abyss Solutions Pty. Ltd.</Typography>
-            <Typography>
-              <div>
+            <Stack>
+              <Typography>
                 - Researched, designed, and implemented a critical functionality for one of the companies’ key products
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Quickly developed a prototype necessary for engaging external stakeholders
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Planned and estimated work with team members to forecast development time needed
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Collaborated with the designer to evaluate feasibility, and assist user testing
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Brought the code coverage of our front-end unit tests up to 80%
-              </div>
-            </Typography>
+              </Typography>
+            </Stack>
             <Typography>
               Key achievement: Delivered key functionalities to a web app that improved the turnaround time of another teams’ work by 400%
             </Typography>
@@ -41,23 +41,23 @@ export const Experience = () => {
               <Typography>Apr 2022</Typography>
             </Stack>
             <Typography>Abyss Solutions Pty. Ltd.</Typography>
-            <Typography>
-              <div>
+            <Stack>
+              <Typography>
                 - A experimental application that generates randomised images/screenshots of a 3d model
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - The screenshots would be used to train a machine learning model that’s used by a sensor drone
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - The training data would be automatically labelled 
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - The app aimed to drastically reduce the time required to generate training data
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - I had proposed, the idea and developed it with the help of my team
-              </div>
-            </Typography>
+              </Typography>
+            </Stack>
           </Stack>
           <Stack>
             <Stack direction="row" justifyContent="space-between">
@@ -65,20 +65,20 @@ export const Experience = () => {
               <Typography>Apr 2020 – Jul 2021</Typography>
             </Stack>
             <Typography>SeaLadder Pty. Ltd.</Typography>
-            <Typography>
-              <div>
+            <Stack>
+              <Typography>
                 - Designed and implemented full-stack solutions using SOLID principles, microservice architecture, and RESTful API’s.
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Developed code with test driven development using xUnit, Jasmine, Karma combined with the Spectator library.
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Onboarded and mentored new interns
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Tech stack: Angular, ASP.NET, Postgres, Azure
-              </div>
-            </Typography>
+              </Typography>
+            </Stack>
             <Typography>
               Key achievements: designing API, designing interface, heavily involved in the design process, implemented large scope features, wrote most of the unit tests.
             </Typography>

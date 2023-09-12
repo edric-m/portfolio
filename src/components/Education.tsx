@@ -20,23 +20,23 @@ export const Education = () => {
               <Typography>Nov 2019 – Feb 2020</Typography>
             </Stack>
             <Typography><a href="https://edric-m.github.io/chordsscales">https://edric-m.github.io/chordsscales</a></Typography>
-            <Typography>
-              <div>
+            <Stack>
+              <Typography>
                 - Developed a single page application that aims to aid guitarists learn chords and scales through a dynamic fretboard display.
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Achieved real-time audio analysis on a shared thread while avoiding significant event loop blocking.
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Applied the Fourier Transform to analyse recorded audio data to listen for musical pitches.
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Designed an animated menu that reorders itself based on its inputs.
-              </div>
-              <div>
+              </Typography>
+              <Typography>
                 - Utilised: ReactJS, node.js, npm, CSS, HTML, GitHub, Media Streams API, Visual Studio Code, react-router, react-spring, create-react-app, Discrete Fourier Transform
-              </div>
-            </Typography>
+              </Typography>
+            </Stack>
           </Stack>
             </Stack>
         </Stack>

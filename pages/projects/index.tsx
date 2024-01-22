@@ -1,18 +1,17 @@
-'use client';
 import { Box, Stack } from '@mui/material';
-import { About } from '../../src/components/About';
 import { Nav } from '../../src/components/Nav';
 import { NextPage } from 'next';
+import { Projects } from '@/components/Projects';
 
-const AboutPage: NextPage = () => {
+const ProjectsPage: NextPage = () => {
   return (
     <Stack alignItems="center">
       <Nav />
       <Box sx={{ width: '75%', mt: 4 }}>
-        <About />
+        <Projects />
       </Box>
     </Stack>
   );
 };
-
-export default AboutPage;
+  
+export default ProjectsPage;

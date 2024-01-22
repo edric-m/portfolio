@@ -13,7 +13,9 @@ const HomePage: NextPage = () => {
         <Nav />
         <Box sx={{ width: '75%', mt: 4 }}>
           <Stack spacing={4}>
-            <About />
+            <div style={{ marginLeft: 'auto', marginRight: 'auto', width: 550}}>
+              <About />
+            </div>
             <Experience />
             {/* <Education /> */}
             {/* <Leadership /> */}

@@ -5,7 +5,7 @@ export const Education = () => {
     <>
       <Stack>
         <Typography variant="h6">Education</Typography>
-        <Stack spacing={4}>
+        <Stack spacing={4} sx={{ paddingLeft: '20px' }}>
           <Stack>
             <Stack direction="row" justifyContent="space-between">
               <Typography>Bachelor of Software Engineering (Honours)</Typography>
